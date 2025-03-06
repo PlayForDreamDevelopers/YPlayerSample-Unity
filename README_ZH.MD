@@ -1,4 +1,4 @@
-[English](.\README.md)
+[English](./README.MD)
 
 
 这个示例工程用于演示如何在 Unity 环境下使用 YVR Player，它基于 Unity2022.3.12f1 版本搭建。除了Unity内部库外，主要有以下依赖：
