@@ -1,6 +1,6 @@
 [![zh](https://img.shields.io/badge/lang-zh-blue.svg)](./README.zh.md)
 
-This sample project demonstrates how to use YVR Player in Unity environment, built on Unity 2022.3.12f1. Besides internal Unity libraries, it mainly depends on:
+This sample project demonstrates how to use YVR Player in Unity environment, built on Unity 2022.3.52f1. Besides internal Unity libraries, it mainly depends on:
 
 1. [YVR Player](https://github.com/PlayForDreamDevelopers/com.yvr.player-mirror)
 2. [YVR AndroidDeviceCore](https://github.com/PlayForDreamDevelopers/com.yvr.android-device.core-mirror)
