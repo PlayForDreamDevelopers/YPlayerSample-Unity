@@ -1542,13 +1542,8 @@ MonoBehaviour:
   m_Unmute: {fileID: 404606739}
   m_ToggleGroup: {fileID: 2047181598}
   listItem: {fileID: 372008330531186428, guid: 3790bb2d999e5d04282b051248c91db6, type: 3}
-  videoPath:
+  playerLists:
   - https://media.w3.org/2010/05/sintel/trailer.mp4
-  - /storage/emulated/0/trailer.mp4
-  - https://apisr.yvrdream.com/vrmc/vedios/cce01112-4d47-4ecc-977e-1b0efefad070.mp4
-  - https://apisr.yvrdream.com/vrmc/vedios/deaa4388-db76-4c23-8c0b-26167c727559.mp4
-  - https://apisr.yvrdream.com/vrmc/vedios/28b0542e-9e38-4275-be3c-3da7b206c913.mp4
-  - https://apisr.yvrdream.com/vrmc/vedios/75e5f448-eaec-4419-8c1e-33520cf366f0.mp4
   videoSelected:
     m_PersistentCalls:
       m_Calls: []
@@ -4811,7 +4806,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872129013}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5246,7 +5241,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1695607804}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.81333375
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5654,7 +5649,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000015258789}
+  m_AnchoredPosition: {x: 0, y: -0.000022888184}
   m_SizeDelta: {x: 0, y: 28}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &2088000296

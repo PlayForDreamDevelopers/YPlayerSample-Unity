@@ -7,8 +7,11 @@
 3. [YVR UniRx](https://github.com/PlayForDreamDevelopers/com.yvr.unirx-mirror)
 4. [YVR Utilities](https://github.com/PlayForDreamDevelopers/com.yvr.utilities-mirror)
 
-
 示例内提供了在线视频、本地视频的播放控制和使用方法，并提供了左右分割、上下分割的3D视差视频和180°、360°全景视频的应用示例。
+
+想添加本地测试视频，可以放到"\Android\data\com.yvr.playerdemo\files\videos"目录中。
+
+推荐的在线视频地址: https://gist.github.com/jsturgis/3b19447b304616f18657
 
 ## 如何将 YVR Player 接入到其他项目？
 

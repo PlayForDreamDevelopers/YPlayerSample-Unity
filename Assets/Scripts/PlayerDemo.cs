@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Android;
@@ -26,22 +28,16 @@ public class PlayerDemo : MonoBehaviour
 
     public GameObject listItem;
 
-    public string[] videoPath =
+    public List<string> playerLists = new()
     {
-        "https://media.w3.org/2010/05/sintel/trailer.mp4",
-        // 本地路径的使用参考：1. 需要本地访问权限；2. 需要将上面的链接下载到设备的根目录
-        "/storage/emulated/0/trailer.mp4",
-        "https://apisr.yvrdream.com/vrmc/vedios/cce01112-4d47-4ecc-977e-1b0efefad070.mp4",
-        "https://apisr.yvrdream.com/vrmc/vedios/deaa4388-db76-4c23-8c0b-26167c727559.mp4",
-        "https://apisr.yvrdream.com/vrmc/vedios/28b0542e-9e38-4275-be3c-3da7b206c913.mp4",
-        "https://apisr.yvrdream.com/vrmc/vedios/75e5f448-eaec-4419-8c1e-33520cf366f0.mp4"
+        "https://media.w3.org/2010/05/sintel/trailer.mp4"
     };
 
     public UnityEvent<string> videoSelected;
 
     private void Awake()
     {
-        // 请求读取本地磁盘中视频文件的权限
+        // Request permission to read video files on local disk
         Permission.RequestUserPermission(Permission.ExternalStorageRead);
 
         m_YPlayer = GetComponent<YPlayer>();
@@ -50,13 +46,27 @@ public class PlayerDemo : MonoBehaviour
 
     private void Start()
     {
-        for (int i = 0; i < videoPath.Length; i++)
+        var localVideosPath = Path.Combine(Application.persistentDataPath, "videos");
+
+        if (!Directory.Exists(localVideosPath))
+        {
+            Directory.CreateDirectory(localVideosPath);
+        }
+
+        string[] files = Directory.GetFiles(localVideosPath, "*.*", SearchOption.AllDirectories);
+        for (int i = 0; i < files.Length; i++)
+        {
+            Debug.Log($"local file is: {files[i]}");
+        }
+
+        playerLists.AddRange(files);
+        for (int i = 0; i < playerLists.Count; i++)
         {
             var item = Instantiate(listItem, m_ToggleGroup.transform);
             var toggle = item.GetComponent<Toggle>();
             toggle.group = m_ToggleGroup;
             var label = item.GetComponentInChildren<Text>();
-            var path = videoPath[i];
+            var path = playerLists[i];
             label.text = path;
             toggle.onValueChanged.AddListener(isOn =>
             {
@@ -68,9 +78,9 @@ public class PlayerDemo : MonoBehaviour
         }
 
         videoSelected.AddListener(OpenMedia);
-        if (videoPath.Length > 0)
+        if (playerLists.Count > 0)
         {
-            OpenMedia(videoPath.Last());
+            OpenMedia(playerLists.Last());
         }
     }
 

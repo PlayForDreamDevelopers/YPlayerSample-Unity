@@ -11,6 +11,10 @@ The sample provides implementations for online/offline video playback controls, 
 • 3D parallax video with side-by-side/top-and-bottom layouts
 • 180°/360° panoramic videos
 
+To add local test videos, you can put them in the "\Android\data\com.yvr.playerdemo\files\videos" directory
+
+A list of recommended online videos: https://gist.github.com/jsturgis/3b19447b304616f18657
+
 ## How to Integrate YVR Player into Other Projects?
 
 1. Reference the `packages.json` in the project to add YVR-related packages:
