@@ -31,6 +31,9 @@
 
 ## 关于项目
 
+> [!important]
+>
+> 本示例使用的 [YVR Core](https://github.com/PlayForDreamDevelopers/com.yvr.core-mirror) 是 1.23.10 版本，该版本仅在 OS 3.1.0.55 或更新版本下可执行。对于较老的系统版本，你可以选择使用开发者官网的 [YVR Core v2.8.0](https://developer.pfdm.cn/yvrdoc/unity_CN/UserManual_CN/ReleaseNotes/ReleaseNotes2.8.0.html) 版本.
 提供了在线视频、本地视频的播放控制和使用方法，并提供了左右分割、上下分割的3D视差视频和180°、360°全景视频的应用示例。
 
 ## 示例
@@ -44,6 +47,7 @@
      "dependencies": {
    ...
        "com.yvr.android-device.core": "git@github.com:PlayForDreamDevelopers/com.yvr.android-device.core-mirror.git?path=/com.yvr.android-device.core#0540b2af10a4d83e40f3b62b457a5bb6e742e9b6",
+       "com.yvr.core": "git@github.com:PlayForDreamDevelopers/com.yvr.core-mirror.git?path=/com.yvr.core#212cf5ea67829799bcd8b9f7f7963b2dfd0b0505",
        "com.yvr.json-parser": "git@github.com:PlayForDreamDevelopers/com.yvr.json-parser-mirror.git?path=/com.yvr.json-parser#87438d1a077e9b648dc5393637174f33aaefe104",
        "com.yvr.player": "git@github.com:PlayForDreamDevelopers/com.yvr.player-mirror.git?path=/com.yvr.player#051858c079647678aea66a910e7150a54a1179b9",
        "com.yvr.unirx": "git@github.com:PlayForDreamDevelopers/com.yvr.unirx-mirror.git?path=/com.yvr.unirx#a795fe53c94d3761f6bad216c05bb480b926bc8f",

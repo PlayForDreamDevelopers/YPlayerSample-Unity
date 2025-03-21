@@ -31,6 +31,10 @@
 
 ## About The Project
 
+> [!important]
+>
+> This example USES [YVR Core](https://github.com/PlayForDreamDevelopers/com.yvr.core-mirror) is 1.23.10 version, This version is only available under OS 3.1.0.55 or later. For older system versions, You can choose to use the YVR developer platform`s website [YVR Core v2.8.0](https://developer.pfdm.cn/yvrdoc/unity_CN/UserManual_CN/ReleaseNotes/ReleaseNotes2.8.0.html).
+
 The sample provides implementations for online/offline video playback controls, and demonstrates applications of:
 • 3D parallax video with side-by-side/top-and-bottom layouts
 • 180°/360° panoramic videos
@@ -46,6 +50,7 @@ The sample provides implementations for online/offline video playback controls, 
      "dependencies": {
    ...
        "com.yvr.android-device.core": "git@github.com:PlayForDreamDevelopers/com.yvr.android-device.core-mirror.git?path=/com.yvr.android-device.core#0540b2af10a4d83e40f3b62b457a5bb6e742e9b6",
+       "com.yvr.core": "git@github.com:PlayForDreamDevelopers/com.yvr.core-mirror.git?path=/com.yvr.core#212cf5ea67829799bcd8b9f7f7963b2dfd0b0505",
        "com.yvr.json-parser": "git@github.com:PlayForDreamDevelopers/com.yvr.json-parser-mirror.git?path=/com.yvr.json-parser#87438d1a077e9b648dc5393637174f33aaefe104",
        "com.yvr.player": "git@github.com:PlayForDreamDevelopers/com.yvr.player-mirror.git?path=/com.yvr.player#051858c079647678aea66a910e7150a54a1179b9",
        "com.yvr.unirx": "git@github.com:PlayForDreamDevelopers/com.yvr.unirx-mirror.git?path=/com.yvr.unirx#a795fe53c94d3761f6bad216c05bb480b926bc8f",
