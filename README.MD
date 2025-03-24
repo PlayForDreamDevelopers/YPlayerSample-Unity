@@ -19,9 +19,9 @@
     &middot;
     <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=bug_report.yml">Report Bug</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=feature_request.ym">Request Feature</a>
+    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=feature_request.yml">Request Feature</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=documentation_update.ymll">Improve Documentation</a>
+    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=documentation_update.yml">Improve Documentation</a>
   </p>
 </div>
 
