@@ -17,11 +17,11 @@
     <br />
     <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity">View Samples</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=feature_request.yml">Report Bug</a>
+    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=bug_report.yml">Report Bug</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?labels=enhancement">Request Feature</a>
+    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=feature_request.ym">Request Feature</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=documentation_update.yml">Improve Documentation</a>
+    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=documentation_update.ymll">Improve Documentation</a>
   </p>
 </div>
 

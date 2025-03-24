@@ -17,11 +17,11 @@
     <br />
     <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity">查看示例</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=feature_request.yml">Bug 报告</a>
+    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=bug_report.yml">Bug报告</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?labels=enhancement">请求功能</a>
+    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=feature_request.ym">请求功能</a>
     &middot;
-    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=documentation_update.yml">改进文档</a>
+    <a href="https://github.com/PlayForDreamDevelopers/YPlayerSample-Unity/issues/new?template=documentation_update.ymll">改进文档n</a>
   </p>
 </div>
 
