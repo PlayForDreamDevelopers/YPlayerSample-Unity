@@ -64,7 +64,7 @@
 
    2. 由于 ExoPlayer 的运行环境要求，需要保证 Minimum API Level为Android 10.0，Target API Level为34；
 
-   ![image-20250306135106293](.\README.ASSETS\image-20250306135106293.png)
+   ![image-20250306135106293](./README.ASSETS/image-20250306135106293.png)
 
    3. 参考 SampleScene 场景中的 Player 游戏对象，挂载 YPlayer 和配置它的输出材质，保证 TargetMaterials 中的材质与渲染视频的 RawImage 组件中的材质是同一个。
 
