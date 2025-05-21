@@ -8,7 +8,7 @@
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.9.4",
     "com.yvr.core": "https://github.com/PlayForDreamDevelopers/com.yvr.core-mirror.git?path=/com.yvr.core#version_1.26.3",
-    "com.yvr.android-device.core": "https://github.com/PlayForDreamDevelopers/com.yvr.android-device.core-mirror.git?path=/com.yvr.android-device.core#version_1.2.3",
+    "com.yvr.android-device.core": "https://github.com/PlayForDreamDevelopers/com.yvr.android-device.core-mirror.git?path=/com.yvr.android-device.core#version_1.2.4",
     "com.yvr.json-parser": "https://github.com/PlayForDreamDevelopers/com.yvr.json-parser-mirror.git?path=/com.yvr.json-parser#version_0.0.10",
     "com.yvr.player": "https://github.com/PlayForDreamDevelopers/com.yvr.player-mirror.git?path=/com.yvr.player#version_1.3.3",
     "com.yvr.unirx": "https://github.com/PlayForDreamDevelopers/com.yvr.unirx-mirror.git?path=/com.yvr.unirx#version_0.2.1",
