@@ -172,27 +172,24 @@
       "url": "https://packages.unity.com"
     },
     "com.yvr.android-device.core": {
-      "version": "git@github.com:PlayForDreamDevelopers/com.yvr.android-device.core-mirror.git?path=/com.yvr.android-device.core#0540b2af10a4d83e40f3b62b457a5bb6e742e9b6",
+      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.android-device.core-mirror.git?path=/com.yvr.android-device.core#version_1.2.4",
       "depth": 0,
       "source": "git",
-      "dependencies": {
-        "com.yvr.json-parser": "0.0.10",
-        "com.yvr.unirx": "0.2.1"
-      },
-      "hash": "0540b2af10a4d83e40f3b62b457a5bb6e742e9b6"
+      "dependencies": {},
+      "hash": "9e5e0f60d2546570596dc3dcab47051819329217"
     },
     "com.yvr.core": {
-      "version": "git@github.com:PlayForDreamDevelopers/com.yvr.core-mirror.git?path=/com.yvr.core#212cf5ea67829799bcd8b9f7f7963b2dfd0b0505",
+      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.core-mirror.git?path=/com.yvr.core#version_1.28.11",
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.yvr.utilities": "0.15.10",
+        "com.yvr.utilities": "0.15.14",
         "com.unity.xr.management": "3.0.4"
       },
-      "hash": "212cf5ea67829799bcd8b9f7f7963b2dfd0b0505"
+      "hash": "9213457a70467b85a8d81aba964416f92c462cf9"
     },
     "com.yvr.json-parser": {
-      "version": "git@github.com:PlayForDreamDevelopers/com.yvr.json-parser-mirror.git?path=/com.yvr.json-parser#87438d1a077e9b648dc5393637174f33aaefe104",
+      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.json-parser-mirror.git?path=/com.yvr.json-parser#version_0.0.10",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -202,16 +199,16 @@
       "hash": "87438d1a077e9b648dc5393637174f33aaefe104"
     },
     "com.yvr.player": {
-      "version": "git@github.com:PlayForDreamDevelopers/com.yvr.player-mirror.git?path=/com.yvr.player#051858c079647678aea66a910e7150a54a1179b9",
+      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.player-mirror.git?path=/com.yvr.player#version_1.3.3",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.yvr.android-device.core": "1.2.0"
       },
-      "hash": "051858c079647678aea66a910e7150a54a1179b9"
+      "hash": "6ba28e4638530d7c0e876adc4dad38f2533dd5e1"
     },
     "com.yvr.unirx": {
-      "version": "git@github.com:PlayForDreamDevelopers/com.yvr.unirx-mirror.git?path=/com.yvr.unirx#a795fe53c94d3761f6bad216c05bb480b926bc8f",
+      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.unirx-mirror.git?path=/com.yvr.unirx#version_0.2.1",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -220,13 +217,13 @@
       "hash": "a795fe53c94d3761f6bad216c05bb480b926bc8f"
     },
     "com.yvr.utilities": {
-      "version": "git@github.com:PlayForDreamDevelopers/com.yvr.utilities-mirror.git?path=/com.yvr.utilities#c06beb422cd7e07324aa50ec3196be2ef1de1205",
+      "version": "https://github.com/PlayForDreamDevelopers/com.yvr.utilities-mirror.git?path=/com.yvr.utilities#version_0.15.14",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "3.2.1"
       },
-      "hash": "c06beb422cd7e07324aa50ec3196be2ef1de1205"
+      "hash": "5509e064b2fdf7b7f1963bc1b65b8367a22d4229"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
